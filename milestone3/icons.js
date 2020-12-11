@@ -40,7 +40,6 @@ $(document).ready(function () {
   const userClor = 'purple';
 
   //aggiungiamo dei colori come da milestone 2
-  //aggiungiamo dei colori usando una funzione
   const animalArray = coloredIcons(icone,'Animal',animalClor);
   const vegetableArray = coloredIcons(icone,'Vegetable',vegetableClor);
   const userArray = coloredIcons(icone,'User',userClor);
@@ -49,7 +48,6 @@ $(document).ready(function () {
   console.log(userArray);
 
   //inseriamo le icone nel container come da milestone 2
-  //inseriamo le icone colorate nel container
   print(icone,container);
 
   //estrapoliamo i tipi di icone

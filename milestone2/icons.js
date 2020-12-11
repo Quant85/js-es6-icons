@@ -31,7 +31,7 @@ $(document).ready(function () {
     new Icone('user-secret','fa-','user','fas')
   ];
   console.log(icone);
-  // Semezioniamo il container icons
+  // Selezioniamo il container icons
 
   const container = $(".icons");
   //console.log(container);
